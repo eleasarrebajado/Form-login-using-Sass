@@ -23,7 +23,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../dir/images/imgbg1.jpg"), url("../dir/images/imgbglwresc.jpg");
+  background-image: url("../loginSass/dir/mages/imgbg1.jpg"), url("../loginSass/dir/images/imgbglwresc.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -42,7 +42,7 @@ body {
 }
 
 .main-container .container .img-box {
-  background: url(../dir/images/imgpr.jpg) no-repeat center center;
+  background: url(../loginSass/dir/images/imgpr.jpg) no-repeat center center;
   background-size: cover;
   width: 100px;
   margin-top: 20px !important;
@@ -61,7 +61,8 @@ body {
 
 .main-container form label {
   font-size: 15px;
-  font: 100% Helvetica, sans-serif;
+  /*font: 100% $font-family; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-container form input[type=text] {

@@ -30,7 +30,7 @@ body{
         overflow: auto;
 
         .img-box{
-            background: url(../dir/images/imgpr.jpg)no-repeat center center;
+            background: url(../loginSass/dir/images/imgpr.jpg)no-repeat center center;
             background-size: cover;
             width: 100px;
             margin-top: 20px!important;
@@ -49,7 +49,8 @@ body{
     
         label{
             font-size: 15px;
-            font: 100% $font-family;
+            /*font: 100% $font-family; */
+            font-family: 'Montserrat', sans-serif;
         }
     
         input[type=text] {
